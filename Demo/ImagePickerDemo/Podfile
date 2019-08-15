@@ -6,5 +6,5 @@ inhibit_all_warnings!
 target 'ImagePickerDemo' do
 	pod 'ImagePicker', path: '../../'
 	pod 'Lightbox'
-	pod 'Hue'
+	pod 'Hue', '~> 5.0.0'
 end
