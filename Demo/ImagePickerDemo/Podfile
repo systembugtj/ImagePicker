@@ -5,6 +5,10 @@ inhibit_all_warnings!
 
 target 'ImagePickerDemo' do
 	pod 'ImagePicker', path: '../../'
-	pod 'Lightbox'
-	pod 'Hue', '~> 5.0.0'
+	pod 'Cache', git: 'https://github.com/systembugtj/Cache.git'
+	pod 'Imaginary', git: 'https://github.com/systembugtj/Imaginary.git'
+	pod 'Lightbox', git: 'https://github.com/systembugtj/Lightbox.git'
+	pod 'Sugar', git: 'https://github.com/systembugtj/Sugar.git'
+	pod 'Spots', git: 'https://github.com/systembugtj/Spots.git'
+	pod 'Hue', git: 'https://github.com/systembugtj/Hue.git'
 end

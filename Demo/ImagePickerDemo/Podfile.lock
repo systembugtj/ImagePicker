@@ -1,40 +1,69 @@
 PODS:
-  - Cache (4.0.2):
-    - SwiftHash (~> 2.0.0)
-  - Hue (3.0.0)
-  - ImagePicker (5.0.0)
-  - Imaginary (3.0.0):
-    - Cache (~> 4.0)
-  - Lightbox (2.0.0):
-    - Hue (~> 3.0)
-    - Imaginary (~> 3.0)
-  - SwiftHash (2.0.0)
+  - Cache (5.3.0)
+  - Hue (5.0.1)
+  - ImagePicker (5.0.1)
+  - Imaginary (5.0.1):
+    - Cache (~> 5.0)
+  - Lightbox (5.0.1):
+    - Imaginary
+  - Spots (7.6.0):
+    - Cache
+  - Sugar (5.0.0)
 
 DEPENDENCIES:
-  - Hue
+  - Cache (from `https://github.com/systembugtj/Cache.git`)
+  - Hue (from `https://github.com/systembugtj/Hue.git`)
   - ImagePicker (from `../../`)
-  - Lightbox
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - Cache
-    - Hue
-    - Imaginary
-    - Lightbox
-    - SwiftHash
+  - Imaginary (from `https://github.com/systembugtj/Imaginary.git`)
+  - Lightbox (from `https://github.com/systembugtj/Lightbox.git`)
+  - Spots (from `https://github.com/systembugtj/Spots.git`)
+  - Sugar (from `https://github.com/systembugtj/Sugar.git`)
 
 EXTERNAL SOURCES:
+  Cache:
+    :git: https://github.com/systembugtj/Cache.git
+  Hue:
+    :git: https://github.com/systembugtj/Hue.git
   ImagePicker:
     :path: "../../"
+  Imaginary:
+    :git: https://github.com/systembugtj/Imaginary.git
+  Lightbox:
+    :git: https://github.com/systembugtj/Lightbox.git
+  Spots:
+    :git: https://github.com/systembugtj/Spots.git
+  Sugar:
+    :git: https://github.com/systembugtj/Sugar.git
+
+CHECKOUT OPTIONS:
+  Cache:
+    :commit: d2fb0c1d69b5e2d845b7fe1bcef3a9a70fd52341
+    :git: https://github.com/systembugtj/Cache.git
+  Hue:
+    :commit: 088e42e122997f7170cc9f5db30477687f89d2e2
+    :git: https://github.com/systembugtj/Hue.git
+  Imaginary:
+    :commit: 600adeaab9b7979922cdf2170b37f186590577b3
+    :git: https://github.com/systembugtj/Imaginary.git
+  Lightbox:
+    :commit: b9007f6d5e41dc233429838a13120bad5557135e
+    :git: https://github.com/systembugtj/Lightbox.git
+  Spots:
+    :commit: cc365ae8a1462b8ff1738b77717eb1e6416ad868
+    :git: https://github.com/systembugtj/Spots.git
+  Sugar:
+    :commit: cff5e71317132ac20c5644e8e7d1af3112d9a2b4
+    :git: https://github.com/systembugtj/Sugar.git
 
 SPEC CHECKSUMS:
-  Cache: 363b6899cee63c82ccbd291e64a6c202abc17a88
-  Hue: b8fe1e43eef13631331eebecb2198b68e2622f95
-  ImagePicker: 2903bfb26c5783fb762517d854ded1791a35135b
-  Imaginary: 2765d293d425cbed3b07fa11642554cbaebe913d
-  Lightbox: 83ec9f4aba4c79fc7bb9bcd263386df9969f09bb
-  SwiftHash: d2e09b13495447178cdfb8e46e54a5c46f15f5a9
+  Cache: b3f230a4e2e30e13b52863eb3539794fcc5e1995
+  Hue: 987ac93ce357c44b6d4c87ebbbf00469d7382fe1
+  ImagePicker: fb8330e834f6da731a81045498bb3cefaf9b3f65
+  Imaginary: afe0d00925db2041e4c08e285b106a48f2390933
+  Lightbox: fc39a5d3d4e66e7e94e67da1f0ca30db548baa78
+  Spots: 06e6718ced4b2bdcc84be3c08c5c4c15842dbdc6
+  Sugar: 80dd0ecebb5d118bb3f6f82205e8028b85208727
 
-PODFILE CHECKSUM: 40a8c51b79d72ea6fe5312cdd363bc3025ce5b81
+PODFILE CHECKSUM: c0b6bec75bf7f0d4137bbb95d6e5028786d58dad
 
 COCOAPODS: 1.7.5
